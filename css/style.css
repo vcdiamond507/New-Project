@@ -735,7 +735,7 @@ a.facebook:hover {
 	font-size: 0.95em;
 }
 .banner-agile-1 {
-    background: url(../images/mountain-race/miles-burke-idhx-MOCDSk-unsplash.jpg) no-repeat;
+    background: url(../images/mountain-race/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     -webkit-background-size: cover;
@@ -745,7 +745,17 @@ a.facebook:hover {
     min-height:500px;
 }
 .banner-agile-2 {
-    background: url(../images/mountain-race/ian-schneider-TamMbr4okv4-unsplash.jpg) no-repeat;
+    background: url(../images/mountain-race/eric-park-QbX8A8eHfzw-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height:500px;
+}
+.banner-agile-3 {
+    background: url(../images/mountain-race/nguyen-le-viet-anh-POcLQMo2COg-unsplash.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     -webkit-background-size: cover;
@@ -1518,6 +1528,9 @@ h4.modal-title {
 .banner-agile-2 {
     min-height: 270px;
 }
+.banner-agile-3 {
+    min-height: 270px;
+}
 .contact-fields-w3ls {
     margin-top: 1em;
 }
@@ -1546,6 +1559,9 @@ h4.modal-title {
     min-height: 250px;
 }
 .banner-agile-2 {
+    min-height: 250px;
+}
+.banner-agile-3 {
     min-height: 250px;
 }
 .banner-text-whtree h3 {
@@ -1597,6 +1613,9 @@ h4.modal-title {
     min-height: 230px;
 }
 .banner-agile-2 {
+    min-height: 230px;
+}
+.banner-agile-3 {
     min-height: 230px;
 }
 .w3l_header {
@@ -1664,6 +1683,9 @@ p.card-text {
 .banner-agile-2 {
     min-height: 200px;
 } 
+.banner-agile-3 {
+    min-height: 200px;
+} 
 .w3_agile_testimonials_grid_right {
     padding: 1em 3em;
 }
@@ -1694,6 +1716,9 @@ p.card-text {
     min-height: 170px;
 }
 .banner-agile-2 {
+    min-height: 170px;
+}
+.banner-agile-3 {
     min-height: 170px;
 }
 .w3l_header {

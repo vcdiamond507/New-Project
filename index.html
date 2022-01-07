@@ -13,10 +13,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<title>Home/ X-treme Hiking</title>
 	<!-- Meta tag Keywords -->
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
-	<meta name="keywords" content="Venture Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
-	/>
+	<meta name="keywords" content="Venture Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+	<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -187,24 +190,7 @@ Our Tours -->
 			<h3 class="w3l_header">Our <span>Packages</span></h3>
 		</div>
 		<div class="row inner_w3l_agile_grids-1 mt-md-5 pt-4">
-			<div class="col-md-6 agile-info_packages_left1">
-				<img src="images/chanshal-road-trip/Chanshal Pass0.jpg" class="img-fluid" alt="Card image cap">			
-				<div class="row packages_top">
-					<div class="col-sm-6">
-						<h3 class="mb-2">Chanshal Road Trip</h3>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-					</div>
-					<div class="col-sm-6">
-						<h4 class="mb-2">Starting from 4000 &#8377 </h4>
-						<p>3 days 2 nights</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 agile-info_packages_left2">
+			<div class="col-md-6 agile-info_packages_left2" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#buran-pass">
 				<img src="images/buran-pass/Buranghati_Amit_Chandranahan-Lake_Indiahikes-new.jpg" class="img-fluid" alt="Card image cap">
 				<div class="row packages_top">
 					<div class="col-sm-6">
@@ -221,26 +207,7 @@ Our Tours -->
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row inner_w3l_agile_grids-1 mt-md-5 pt-4">
-			<div class="col-md-6 agile-info_packages_left1">
-				<img src="images/hidden-side-of-chanshal/1620822849_whatsapp_image_2021_05_12_at_5_54_41_pm.jpeg" class="img-fluid" alt="Card image cap">			
-				<div class="row packages_top">
-					<div class="col-sm-6">
-						<h3 class="mb-2">Hidden Sides Of Chanshal</h3>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-						<li><i class="fa fa-star"></i></li>
-					</div>
-					<div class="col-sm-6">
-						<h4 class="mb-2">Starting from 7500 &#8377</h4>
-						<p>4 days 3 nights</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 agile-info_packages_left2">
+			<div class="col-md-6 agile-info_packages_left2" style="cursor: pointer;"data-bs-toggle="modal" data-bs-target="#chander-nahan">
 				<img src="images/chandernahan/aaron-burden-ufFIweqSPd4-unsplash.jpg" class="img-fluid" alt="Card image cap">
 				<div class="row packages_top">
 					<div class="col-sm-6">
@@ -259,7 +226,43 @@ Our Tours -->
 			</div>
 		</div>
 		<div class="row inner_w3l_agile_grids-1 mt-md-5 pt-4">
-			<div class="col-md-6 agile-info_packages_left1">
+			<div class="col-md-6 agile-info_packages_left1" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#chanshal">
+				<img src="images/hidden-side-of-chanshal/1620822849_whatsapp_image_2021_05_12_at_5_54_41_pm.jpeg" class="img-fluid" alt="Card image cap">			
+				<div class="row packages_top">
+					<div class="col-sm-6">
+						<h3 class="mb-2">Hidden Sides Of Chanshal</h3>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+					</div>
+					<div class="col-sm-6">
+						<h4 class="mb-2">Starting from 7500 &#8377</h4>
+						<p>4 days 3 nights</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 agile-info_packages_left1" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#chanshal-road">
+				<img src="images/chanshal-road-trip/Chanshal Pass0.jpg" class="img-fluid" alt="Card image cap">			
+				<div class="row packages_top">
+					<div class="col-sm-6">
+						<h3 class="mb-2">Chanshal Road Trip</h3>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+					</div>
+					<div class="col-sm-6">
+						<h4 class="mb-2">Starting from 4000 &#8377 </h4>
+						<p>3 days 2 nights</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row inner_w3l_agile_grids-1 mt-md-5 pt-4">
+			<div class="col-md-6 agile-info_packages_left1" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#mountain-race">
 				<img src="images/mountain-race/simon-english-48nerZQCHgo-unsplash.jpg" class="img-fluid" alt="Card image cap">			
 				<div class="row packages_top">
 					<div class="col-sm-6">
@@ -276,7 +279,7 @@ Our Tours -->
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 agile-info_packages_left1">
+			<div class="col-md-6 agile-info_packages_left1" style="cursor: pointer;">
 				<img src="images/mountain-race/mark-duffel-U5y077qrMdI-unsplash.jpg" class="img-fluid" alt="Card image cap">			
 				<div class="row packages_top">
 					<div class="col-sm-6">
@@ -307,7 +310,7 @@ Our Tours -->
 				<div class="col-md-4 w3layouts_news_left_grid3">
 					<div class="new_top text-center">
 						<i class="fas fa-star"></i>
-						<h3 class="mb-3 mt-3">AMAZING TOUR</h3>
+						<h3 class="mb-3 mt-3">Amazing Tours</h3>
 						<p>company provides memorable tour, which becomes a part of customer's memory forever.</p>
 					</div>
 				</div>
@@ -321,7 +324,7 @@ Our Tours -->
 				<div class="col-md-4 w3layouts_news_left_grid1">
 					<div class="new_top text-center">
 						<i class="fas fa-home"></i>
-						<h3 class="mb-3 mt-3">PRIVATE CAMP</h3>
+						<h3 class="mb-3 mt-3">Private Camps</h3>
 						<p>We provide a private camp, sleeping bag, and toilet camp to our customers</p>
 					</div>
 				</div>
@@ -330,7 +333,7 @@ Our Tours -->
 				<div class="col-md-4 w3layouts_news_left_grid1">
 					<div class="new_top text-center">
 						<i class="fab fa-free-code-camp"></i>		
-						<h3 class="mb-3 mt-3">BON-FIRE</h3>
+						<h3 class="mb-3 mt-3">Bon-Fire</h3>
 						<p>Bon-fire in evening with music party and light drinks.</p>
 					</div>
 				</div>
@@ -568,6 +571,389 @@ Our Tours -->
 
 
 <!-- Modal -->
+<!--Buran Pass Modal-->
+<div class="modal fade" id="buran-pass" tabindex="-1" aria-labelledby="exampleModalLabel"     aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Buran-Pass</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="text-gray-600 body-font">
+				<div class="container mx-auto flex flex-wrap">
+				  <div class="flex flex-wrap w-full">
+					<div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 1st</h2>
+						  <p class="leading-relaxed">  
+                          Via Janglikh Village, we will reach Simbhir place, where tea break and breakfast will be done.
+						  After having breakfast we will leave for Diara, where we will have lunch and dinner and we will stay there for the first night.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 2nd</h2>
+						  <p class="leading-relaxed">  
+							In the morning after having breakfast in Diara we will leave for the onward journey.						    
+                            It took the whole day to walk, enjoying the beautiful views on the way, we will reach the place of Litham. Where we will stay for lunch, dinner and 2nd night.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 3rd</h2>
+						  <p class="leading-relaxed">  
+                            After breakfast in the morning we leave for Buren-Pass.	    
+							From here the journey of Buren Pass starts.
+							On the way via Dunda Place, we will continue on for Buren-Pass.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-stop-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">End of Track</h2>
+						  <p class="leading-relaxed">  
+							After this journey of days and nights, this tracking ends at Buren-Pass.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  <!--Chandernahan Modal-->
+  <div class="modal fade" id="chander-nahan" tabindex="-1" aria-labelledby="exampleModalLabel"     aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Chander-nahan</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="text-gray-600 body-font">
+				<div class="container mx-auto flex flex-wrap">
+				  <div class="flex flex-wrap w-full">
+					<div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 1st</h2>
+						  <p class="leading-relaxed">  
+                          Via Janglikh Village, we will reach Simbhir place, where tea break and breakfast will be done.
+						  After having breakfast we will leave for Diara, where we will have lunch and dinner and we will stay there for the first night.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 2nd</h2>
+						  <p class="leading-relaxed">  
+							In the morning after having breakfast in Diara we will leave for the onward journey.						    
+                            It took the whole day to walk, enjoying the beautiful views on the way, we will reach the place of Litham. Where we will stay for lunch, dinner and 2nd night.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 3rd</h2>
+						  <p class="leading-relaxed">  
+                            After breakfast in the morning we leave for Chandernahan.	    
+							From here the journey of Chandernahan starts.
+							On the way vie beautiful locations, we will continue on for Chandernahan.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-stop-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">End of Track</h2>
+						  <p class="leading-relaxed">  
+							After this journey of days and nights, this tracking ends at Chandernahan.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  <!--Hidden Sides of Chanshal Modal-->
+  <div class="modal fade" id="chanshal" tabindex="-1" aria-labelledby="exampleModalLabel"     aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Hidden-Side of Chanshal</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="text-gray-600 body-font">
+				<div class="container mx-auto flex flex-wrap">
+				  <div class="flex flex-wrap w-full">
+					<div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 1st</h2>
+						  <p class="leading-relaxed">  
+							On the first day you will reach Kharshali Village from Shimla through our taxi service, where you will be taken to the first camp site.
+							Dinner and first night stay will be provided to you at the first camp site.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 2nd</h2>
+						  <p class="leading-relaxed">  
+                          After breakfast we will go to Kharshali Temple.
+                          This is a very famous and mythological temple here.					  
+                          After visiting the temple we proceed to our next destination named Pangu-Top,
+                          where lunch will be provided.		 
+                          After having lunch we will leave for our next destination which is named Saru-Taal.
+						  We will have dinner at Saru-Taal and will also have 2nd night stay.
+                          Also there will be some activities after dinner such as music party etc.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 3rd</h2>
+						  <p class="leading-relaxed">                          
+                           After having breakfast in the morning, we will leave for a one of the higher places of Chanshal, whose name is Junafad, 
+						   where lunch will be provided.
+						   After lunch, we will proceed to our 2nd camp site,there will be dinner and 3rd night stay.
+                           Like last night, some activities will be done on this night also.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-stop-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">End of Track</h2>
+						  <p class="leading-relaxed">  
+							After having breakfast, the track will start for zero-point place.
+							Taxi will be provided at the zero-point from where you will return to Shimla.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  <!-- Chanshal Road Trip Modal-->
+
+  <div class="modal fade" id="chanshal-road" tabindex="-1" aria-labelledby="exampleModalLabel"     aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Chanshal Road Trip</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="text-gray-600 body-font">
+				<div class="container mx-auto flex flex-wrap">
+				  <div class="flex flex-wrap w-full">
+					<div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Trip</h2>
+						  <p class="leading-relaxed">  				
+                           The trip starts from Chanshal Camps and Resort(Mandli) and ends at Jiskoon Village.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 1st</h2>
+						  <p class="leading-relaxed">  							
+                             We will start from Chanshal Camps & Resort(Mandli) and reach Chanshal via Kharsali Village.There will be a small gathering, group photos will be taken and refreshments will be given.
+							 After some time we will leave from Chanshal for our second destination Dodra-Kwar.Dinner and first night stay will be held at Dodra-Kwar.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Day 2nd</h2>
+						  <p class="leading-relaxed">  							
+							After breakfast in the morning, we will leave for Jiskoon Village. After reaching the village, we will enjoy the beautiful scenery there.After that we will return from Jiskoon to Kharshali via Dodra-Kwar.There will be dinner and 2nd night stay at Kharshali camp site.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-stop-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">End of the Track</h2>
+						  <p class="leading-relaxed">  					
+                            In the morning after breakfast, we will leave for Chanshal Camps & Resort(Mandli).
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  <!-- Mountain Expadatio Race Modal-->
+  <div class="modal fade" id="mountain-race" tabindex="-1" aria-labelledby="exampleModalLabel"     aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Mountain Expedition Chanshal C-1</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="text-gray-600 body-font">
+				<div class="container mx-auto flex flex-wrap">
+				  <div class="flex flex-wrap w-full">
+					<div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Race</h2>
+						  <p class="leading-relaxed">  
+							It is a 29km walk race which will start from Kharsali village and run till Junafad.
+						  </p>
+						</div>
+					  </div>
+					  <div class="flex relative pb-2">
+						<div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+						  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+						</div>
+						<div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+							<i class="fas fa-play-circle"></i>
+						</div>
+						<div class="flex-grow pl-4">
+						  <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Track</h2>
+						  <p class="leading-relaxed">  					
+							During the race, you will have to face mud roads, rocky roads, unpaved roads, and snowy roads which will be full of entertainment.	
+                            Along with this, you will also see a lake during the race.
+						  </p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </section>
+		</div>
+	  </div>
+	</div>
+  </div>
 
 <!-- //Modal -->
 
