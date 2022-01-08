@@ -1420,7 +1420,7 @@ h4.modal-title {
 @media(max-width: 1680px) {
     .logoimg
     {
-      margin-top: -7px;
+      margin-top: 5px;
       height: 100px;
       width: 100px;
     }
@@ -1708,9 +1708,14 @@ margin-top: -7px;
     }
     .logoimg
     {
+        margin-top: -7px;
      height: 85px;
      width: 85px;
     } 
+    .bg-light
+    {
+        height: 90px;
+    }
     .navbar-light .navbar-brand {
         font-size: 40px;
     }
@@ -1753,6 +1758,16 @@ footer h3 {
 }
 }
 @media(max-width: 440px) {
+    .logoimg
+{
+ margin: 0px 10px;
+ height: 80px;
+ width: 80px;
+} 
+.bg-light
+{
+    height: 85px;
+} 
   footer p {
     font-size: 14px;
 }  
@@ -1785,6 +1800,16 @@ p.card-text {
 }
 }
 @media(max-width: 414px) {
+    .logoimg
+{
+ margin: 0px 10px;
+ height: 80px;
+ width: 80px;
+} 
+.bg-light
+{
+    height: 85px;
+} 
  .banner-agile-1 {
     min-height: 200px;
 }  
@@ -1804,9 +1829,13 @@ p.card-text {
 }  
 .logoimg
 {
- margin: 0px auto;
+ margin: 0px 10px;
  height: 80px;
  width: 80px;
+} 
+.bg-light
+{
+    height: 85px;
 } 
 
 }
@@ -1817,18 +1846,26 @@ p.card-text {
   }
   .logoimg
   {
-   margin: 0px auto;
+   margin: 0px 10px;
    height: 75px;
    width: 75px;
+  } 
+  .bg-light
+  {
+      height: 80px;
   } 
 }
 @media(max-width: 320px) {
     .logoimg
     {
-     margin: 0px auto;
+     margin: 0px 10px;
      height: 75px;
      width: 75px;
-    }   
+    }  
+    .bg-light
+    {
+        height: 80px;
+    } 
     .navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         font-size: 14px;
