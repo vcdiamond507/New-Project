@@ -108,7 +108,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 .bg-light {
-    background-color: rgba(185, 61, 252, 0.75) !important;
+    background-color: rgb(8, 8, 8) !important;
+    height: 100px;
 }
 
 .navbar-light .navbar-brand:hover,
@@ -389,8 +390,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 	text-align: right;
 }
 .packages_top {
-    background: #a400fd;
+    background: #080808;
     padding: 30px 30px;
+    height: 180px;
 }
 .packages_top li {
     display: inline-block;
@@ -399,6 +401,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 .row.packages_top {
     margin: 0;
+  
 }
 /*-- testimonials --*/
 .tex-t {
@@ -1414,15 +1417,39 @@ h4.modal-title {
 
 /*--responsive--*/
 
-@media(max-width: 1680px) {}
+@media(max-width: 1680px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 100px;
+      width: 100px;
+    }
+}
 
-@media(max-width: 1600px) {}
+@media(max-width: 1600px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 100px;
+      width: 100px;
+    }
+}
 
 @media(max-width: 1440px) {
-
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 100px;
+      width: 100px;
+    }
 }
 @media(max-width: 1366px) {
-
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 100px;
+      width: 100px;
+    }
 }
 @media(max-width: 1280px) {
     .navbar-light .navbar-nav .nav-link {
@@ -1432,11 +1459,23 @@ h4.modal-title {
     left: 13%;
     top: 37%;
 }
+.logoimg
+{
+  margin-top: -7px;
+  height: 99px;
+  width: 99px;
+}
 }
 @media(max-width: 1080px) {
     .navbar-light .navbar-nav .nav-link {
         padding: 26px 12px;
         font-size: 14px;
+    }
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 98px;
+      width: 98px;
     }
     .navbar-light .navbar-brand {
         font-size: 40px;
@@ -1455,10 +1494,28 @@ h4.modal-title {
 }
 }
 @media(max-width: 1050px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 98px;
+      width: 98px;
+    }
 }
 @media(max-width: 1024px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 98px;
+      width: 98px;
+    }
 }
 @media(max-width: 991px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 97px;
+      width: 97px;
+    }
     .navbar-toggler {
         padding: 0.50rem 0.8rem;
     }
@@ -1500,8 +1557,20 @@ h4.modal-title {
 }
 }
 @media(max-width: 900px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 95px;
+      width: 95px;
+    }
 }
 @media(max-width: 800px) {
+    .logoimg
+    {
+      margin-top: -7px;
+      height: 95px;
+      width: 95px;
+    }
  .banner-text-whtree h3 {
     font-size: 42px;
  }
@@ -1520,10 +1589,22 @@ h4.modal-title {
 .w3_agile_testimonials_grid_right {
     width: 97%;
 }
+.logoimg
+{
+  margin-top: -7px;
+  height: 100px;
+  width: 100px;
+}
 }
 @media(max-width: 736px) {
   .banner-agile-1 {
     min-height: 270px;
+} 
+.logoimg
+{
+ margin: 0px auto;
+ height: 90px;
+ width: 90px;
 } 
 .banner-agile-2 {
     min-height: 270px;
@@ -1552,7 +1633,12 @@ h4.modal-title {
 }
 }
 @media(max-width: 667px) {
-    
+    .logoimg
+    {
+      margin-top: 5px;
+      height: 100px;
+      width: 100px;
+    } 
 }
 @media(max-width: 640px) {
 .banner-agile-1 {
@@ -1570,9 +1656,20 @@ h4.modal-title {
 .banner-w3ls-1, .banner-w3ls-2, .banner-w3ls-3, .banner-w3ls-4, .banner-w3ls-5, .banner-agile {
     min-height: 500px;
 }
+.logoimg
+{
+  margin-top: -7px;
+  height: 100px;
+  width: 100px;
+}
 }
 @media(max-width: 600px) {
-   
+    .logoimg
+    {
+      margin-top: 5px;
+      height: 100px;
+      width: 100px;
+    }
 }
 @media(max-width: 568px) {
 .footer-grid:nth-child(2){
@@ -1597,12 +1694,23 @@ h4.modal-title {
 .packages_top p {
     text-align: left;
 }
+.logoimg
+{
+margin-top: -7px;
+  height: 100px;
+  width: 100px;
+}
 }
 @media(max-width: 480px) {
     .navbar-light .navbar-nav .nav-link {
         padding: 11px 0;
         font-size: 15px;
     }
+    .logoimg
+    {
+     height: 85px;
+     width: 85px;
+    } 
     .navbar-light .navbar-brand {
         font-size: 40px;
     }
@@ -1694,14 +1802,33 @@ p.card-text {
  .wthree_text {
     padding-top: 6.5em;
 }  
+.logoimg
+{
+ margin: 0px auto;
+ height: 80px;
+ width: 80px;
+} 
+
 }
 @media(max-width: 375px) {
   .pager {
     bottom: 29px;
     left: 35%;
   }
+  .logoimg
+  {
+   margin: 0px auto;
+   height: 75px;
+   width: 75px;
+  } 
 }
 @media(max-width: 320px) {
+    .logoimg
+    {
+     margin: 0px auto;
+     height: 75px;
+     width: 75px;
+    }   
     .navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         font-size: 14px;
